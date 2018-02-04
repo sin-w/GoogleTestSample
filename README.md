@@ -10,7 +10,7 @@ Ubuntu16.04 64bit
 
 ## GoogleTestのインストール
 /usr/local/src/gtestに展開した場合の作業  
-サンプルは/usr/local/src/gtestにGoogleTestがインストールされている前提で設定してあります。
+サンプルは/usr/local/src/gtestにGoogleTestがインストールされている前提で設定してあります。  
 sudo git clone https://github.com/google/googletest.git /usr/local/src/gtest  
 cd /usr/local/src/gtest  
 sudo mkdir build  
