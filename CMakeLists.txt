@@ -12,8 +12,8 @@ add_subdirectory(test1)
 # テストを追加する　テスト名、実行コマンド
 add_test(test01 ./test1/test1)
 
-# テストを追加する　テスト名、実行コマンド
+# ビルド対象にtest2ディレクトリを追加
 add_subdirectory(test2)
 
-# ビルド対象にtest1ディレクトリを追加
+# テストを追加する　テスト名、実行コマンド
 add_test(test02 ./test2/test2)
